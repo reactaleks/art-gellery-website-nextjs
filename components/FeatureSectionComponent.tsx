@@ -10,7 +10,7 @@ export default function FeatureSectionComponent() {
         imageAlt="Grid Image One"
       />
 
-    <FeatureTextTileComponent tileDark={false}  tileTitle="Your day at the gallery" tileText="Wander through our distinct collections and find new insights about our
+      <FeatureTextTileComponent tileDark={false}  tileTitle="Your day at the gallery" tileText="Wander through our distinct collections and find new insights about our
         artists. Dive into the details of their creative process."/>
 
       <ImageComponent

@@ -1,6 +1,6 @@
 export default function MapLoadingSkeleton() {
   return (
-    <div className="w-auto h-[600px] bg-white flex justify-center items-center">
+    <div className="w-auto h-[550px] md:h-[600px] bg-white flex justify-center items-center">
       <svg
         aria-hidden="true"
         className="w-8 h-8 text-gray-200 animate-spin dark:text-dark-gray fill-gold"

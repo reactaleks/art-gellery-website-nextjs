@@ -8,7 +8,7 @@ interface PropTypes {
 
 export default function ImageComponent({imageHeight, imageUrl, imageAlt}:PropTypes) {
     return (
-        <div className={`relative h-[${imageHeight}]`}>
+        <div className={`relative m-4 h-[${imageHeight}]`}>
         <Image
           src={imageUrl}
           alt={imageAlt}

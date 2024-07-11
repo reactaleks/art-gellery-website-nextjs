@@ -3,9 +3,9 @@ import FeatureTextTileComponent from "./FeatureTextTileComponent";
 
 export default function FeatureSectionComponent() {
   return (
-    <>
+    <div className="flex flex-col items-center h-[1605px] justify-between mt-24">
       <ImageComponent
-        imageHeight="320px"
+        imageStyles="h-[320px] w-[343px]"
         imageUrl="/desktop/image-grid-1@2x.jpg"
         imageAlt="Grid Image One"
       />
@@ -14,18 +14,18 @@ export default function FeatureSectionComponent() {
         artists. Dive into the details of their creative process."/>
 
       <ImageComponent
-        imageHeight="480px"
+        imageStyles="h-[480px] w-[343px]"
         imageUrl="/desktop/image-grid-2@2x.jpg"
         imageAlt="Grid image two"
       />
 
       <ImageComponent
-        imageHeight="200px"
+        imageStyles="h-[200px] w-[343px]"
         imageUrl="/desktop/image-grid-3@2x.jpg"
         imageAlt="Grid image three"
       />
     <FeatureTextTileComponent tileDark={true} tileTitle="Come & Be Inspired" tileText="We’re excited to welcome you to our gallery and see how our
           collections influence you."/>
-    </>
+    </div>
   );
 }

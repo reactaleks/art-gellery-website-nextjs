@@ -18,7 +18,9 @@
   */
   
   @media (min-width: 1025px) and (max-width: 1280px) {
-    
+    .leaflet-container {
+      height: 600px;
+  }
     /* CSS */
     
   }
@@ -29,7 +31,9 @@
   */
   
   @media (min-width: 768px) and (max-width: 1024px) {
-    
+    .leaflet-container {
+      height: 600px;
+  }
     /* CSS */
     
   }
@@ -53,7 +57,9 @@
   */
   
   @media (min-width: 481px) and (max-width: 767px) {
-    
+    .leaflet-container {
+      height: 550px;
+  }
     /* CSS */
     
   }

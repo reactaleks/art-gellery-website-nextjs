@@ -11,7 +11,7 @@ const config: Config = {
     colors: {
       'allmost-black': '#151515',
       'gold': '#D5966C',
-      'dark-gray': '#D5966C',
+      'dark-gray': '#444444',
       'white': '#FFFFFF'
     },
     extend: {

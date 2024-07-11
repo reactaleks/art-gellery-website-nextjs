@@ -6,8 +6,8 @@ interface PropType {
     dark: boolean;
 }
 
-export default function LogoComponent({dark}: PropType) {
+export default function LogoComponent({dark}:PropType) {
     return (
-        <Image src={dark ? logoDark : logoLight} height={40} width={110.05} alt='Modern Art Gallery Logo'/>
+        <Image src={dark ? logoLight : logoDark} height={40} width={110.05} alt='Modern Art Gallery Logo'/>
     )
 }

@@ -14,7 +14,7 @@ export default function NavButtonComponent({
     return (
       <Link
         href={destination}
-        className="text-[20px] font-extrabold font-bigShoulders uppercase text-white absolute"
+        className="text-[20px] font-extrabold font-bigShoulders uppercase text-white "
       >
         <div className="group w-[260px] h-[72px] flex items-center ">
           <div className="w-[75%] h-full flex justify-center items-center bg-allmost-black group-hover:bg-gold">
@@ -32,7 +32,7 @@ export default function NavButtonComponent({
     return (
       <Link
         href={destination}
-        className="text-[20px] font-extrabold font-bigShoulders uppercase text-white"
+        className="text-[20px] font-extrabold font-bigShoulders uppercase text-white absolute left-[50px]"
       >
         <div className="group w-[260px] h-[72px] flex items-center ">
           <div className="w-[25%] h-full flex justify-center items-center bg-gold group-hover:bg-allmost-black">

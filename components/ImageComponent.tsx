@@ -1,14 +1,14 @@
 import Image from "next/image"
 
 interface PropTypes {
-    imageHeight: string;
+    imageStyles: string;
     imageUrl:string;
     imageAlt:string;
 }
 
-export default function ImageComponent({imageHeight, imageUrl, imageAlt}:PropTypes) {
+export default function ImageComponent({imageStyles, imageUrl, imageAlt}:PropTypes) {
     return (
-        <div className={`relative m-4 h-[${imageHeight}]`}>
+        <div className={`relative ${imageStyles}`}>
         <Image
           src={imageUrl}
           alt={imageAlt}

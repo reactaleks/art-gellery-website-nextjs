@@ -1,0 +1,6 @@
+.leaflet-container {
+    height: 600px;
+    width: auto;
+    filter: brightness(1) grayscale(10);
+
+}

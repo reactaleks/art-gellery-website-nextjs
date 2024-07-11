@@ -13,6 +13,31 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        'allmost-black': '#151515',
+        'gold': '#D5966C',
+        'dark-gray': '#D5966C'
+      },
+      fontFamily: {
+        'bigShoulders': 'Big Shoulders',
+        'outfit': 'Outfit'
+      },
+      fontSize: {
+        'headingxl': '96px',
+        'headingl': '70px',
+        'headingm': '60px',
+        'headings': '36px',
+        'bodym': '22px',
+        'bodys': '18px'
+      },
+      lineHeight: {
+        'headingxl': '88px',
+        'headingl': '70px',
+        'headingm': '50px',
+        'headings': '36px',
+        'bodym': '32px',
+        'bodys': '28px'
+      }
     },
   },
   plugins: [],

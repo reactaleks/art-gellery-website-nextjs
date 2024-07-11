@@ -3,7 +3,7 @@ import "./globals.css";
 
 
 export const metadata: Metadata = {
-  title: "Art Gallery Proejct",
+  title: "Art Gallery Proejct - Home",
   description: "Art Gallery project as part of front end mentor",
 };
 

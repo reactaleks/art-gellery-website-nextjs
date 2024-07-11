@@ -8,10 +8,10 @@ export default function HeroComponent() {
         <Image src={heroImage} alt="Hero image" fill style={{objectFit: 'cover'}}/>
     </div>
 
-      <h1 className="font-bigShoulders font-extrabold text-headingm leading-headingm uppercase">
+      <h1 className="font-bigShoulders font-extrabold text-headingm leading-headingm uppercase text-allmost-black">
         modern art gallery
       </h1>
-      <p className="font-outfit text-bodys leading-bodys">
+      <p className="font-outfit text-bodys leading-bodys text-dark-gray">
         The arts in the collection of the Modern Art Gallery all started from a
         spark of inspiration. Will these pieces inspire you? Visit us and find
         out.

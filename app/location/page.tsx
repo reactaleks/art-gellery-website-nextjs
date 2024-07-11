@@ -18,7 +18,8 @@ export default function Location() {
       <div className="absolute top-0">
         <NavButtonComponent destination="/" linkText="back to home" />
       </div>
-      <div className="h-[493px] bg-allmost-black flex flex-col justify-around px-4">
+
+      <div className="h-[493px] bg-allmost-black flex flex-col justify-around px-4 md:flex-row ">
         <div className="h-[45px]">
           <h1 className="text-[50px] font-bigShoulders font-extrabold text-white">Our Location</h1>
         </div>

@@ -8,12 +8,7 @@ const config: Config = {
   ],
 
   theme: {
-    colors: {
-      'allmost-black': '#151515',
-      'gold': '#D5966C',
-      'dark-gray': '#444444',
-      'white': '#FFFFFF'
-    },
+
     fontFamily: {
       'bigShoulders': 'Big Shoulders',
       'outfit': 'Outfit'
@@ -39,6 +34,15 @@ const config: Config = {
         'headings': '36px',
         'bodym': '32px',
         'bodys': '28px'
+      },
+      colors: {
+        'allmost-black': '#151515',
+        'gold': '#D5966C',
+        'dark-gray': '#444444',
+        'white': '#FFFFFF',
+      },
+      screens: {
+        '4k': '2560px'
       }
     },
   },

@@ -15,22 +15,20 @@ export default function FooterComponent() {
     <footer
       className={`${
         checkPath ? "bg-allmost-black text-white" : "bg-gold text-allmost-black"
-      } h-[375px] flex flex-col justify-around px-8 md:h-[216px]`}
+      } h-[375px]  grid grid-rows-12 grid-cols-12 md:h-[216px] `}
     >
-      <div className="w-[331px] h-[240px] md:w-[689px] md:h-[104px] flex flex-col justify-between md:grid md:grid-cols-3 md:items-start ">
-        <div>
-          <LogoComponent dark={checkPath} />
-        </div>
-        <div className="">
-          <p>
-            The Modern Art Gallery is free to all visitors and open seven days a
-            week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
-          </p>
-        </div>
+      <div className="col-span-4 col-start-2 row-span-1 row-start-3 ">
+        <LogoComponent dark={checkPath} />
+      </div>
+      <div className="col-span-10 col-start-2 row-span-2 row-start-6 md:col-span-4 md:row-start-3 md:col-start-5">
+        <p>
+          The Modern Art Gallery is free to all visitors and open seven days a
+          week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
+        </p>
+      </div>
 
-        <div className="md:flex md:justify-end">
-          <SocialComponent dark={checkPath} />
-        </div>
+      <div className="col-span-4 col-start-2 row-span-1 row-start-11 md:row-start-3 md:col-start-10">
+        <SocialComponent dark={checkPath} />
       </div>
     </footer>
   );

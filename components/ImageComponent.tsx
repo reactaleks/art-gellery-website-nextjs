@@ -8,7 +8,7 @@ interface PropTypes {
 
 export default function ImageComponent({imageStyles, imageUrl, imageAlt}:PropTypes) {
     return (
-        <div className={`relative ${imageStyles}`}>
+        <div className={`relative ${imageStyles} mx-auto`}>
         <Image
           src={imageUrl}
           alt={imageAlt}

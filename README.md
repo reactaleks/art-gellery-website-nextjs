@@ -8,3 +8,4 @@ Goal is to create a two page website for an art gallery with a bonus challenge o
 - TypeScript
 - TailwindCSS
 - LeafletJS
+- Framer Motions

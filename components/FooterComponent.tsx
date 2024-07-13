@@ -27,7 +27,7 @@ export default function FooterComponent() {
         </p>
       </div>
 
-      <div className="col-span-4 col-start-2 row-span-1 row-start-11 md:row-start-3 md:col-start-10">
+      <div className="col-span-4 col-start-2 row-span-1 row-start-11 md:row-start-3 md:col-start-10 xl:col-start-11">
         <SocialComponent dark={checkPath} />
       </div>
     </footer>

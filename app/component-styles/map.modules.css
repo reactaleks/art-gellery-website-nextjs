@@ -1,11 +1,12 @@
 .leaflet-container {
     width: auto;
-    filter: brightness(1) grayscale(10);
    height: 600px;
 }
-.leaflet-marker-icon {
-
+.leaflet-tile-pane {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
+
 
 /* 
 

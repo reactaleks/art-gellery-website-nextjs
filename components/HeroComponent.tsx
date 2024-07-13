@@ -1,9 +1,16 @@
+'use client'
 import Image from "next/image";
 import heroImage from "../public/desktop/image-hero@2x.jpg";
 import NavButtonComponent from "./NavButtonComponent";
+import { motion } from "framer-motion";
+
+
 export default function HeroComponent() {
+
+
+
   return (
-    <div className="xl:grid xl:grid-cols-24 xl:grid-rows-24 max-h-[800px]">
+    <div  className="xl:grid xl:grid-cols-24 xl:grid-rows-24 max-h-[800px]">
       <div className="bg-allmost-black col-span-3 col-start-1 row-span-24 2xl:col-span-4 4k:col-span-7"></div>
 
 
@@ -45,7 +52,8 @@ export default function HeroComponent() {
           <div>modern </div>
           <div>art gallery</div>
         </h1>
-        <p
+
+                <p
           className=" font-outfit text-bodys leading-bodys text-dark-gray
       row-start-17 col-span-21 row-span-4 col-start-2
       md:row-span-12 md:col-span-10 md:col-start-13 md:row-start-13 md:absolute
@@ -57,6 +65,9 @@ export default function HeroComponent() {
           a spark of inspiration. Will these pieces inspire you? Visit us and
           find out.
         </p>
+        
+        
+
         <div
           className="row-start-22 row-span-3 col-span-17 col-start-2
       md:row-span-12 md:col-start-13 md:row-start-18 md:absolute
